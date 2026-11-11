@@ -1,0 +1,16 @@
+{
+  "short_name": "MindQuest",
+  "name": "MindQuest 2026 Online Competition",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F6F1E7",
+  "theme_color": "#0F5C5C",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}

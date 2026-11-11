@@ -1,0 +1,372 @@
+/* src/styles/index.css - Editorial Exam Hall Design System */
+:root {
+  /* Color System */
+  --bg-paper: #F6F1E7;
+  --bg-card: #FFFDF8;
+  --bg-card-alt: #F1ECE0;
+  --text-ink: #1B1B1B;
+  --text-muted: #5A564E;
+  --text-subtle: #878278;
+
+  --accent-teal: #0F5C5C;
+  --accent-teal-light: #187777;
+  --accent-teal-soft: #E5EFEF;
+
+  --signal-warning: #C8431F;
+  --signal-warning-soft: #FDF1ED;
+
+  --status-answered: #0F5C5C;
+  --status-review: #B45309;
+  --status-review-soft: #FEF3C7;
+  --status-unattended: #78716C;
+
+  /* Editorial Borders & Rules */
+  --border-rule: #DCD5C9;
+  --border-dark: #1B1B1B;
+  --border-dashed: 1px dashed #C8C1B3;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Sizing & Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --tap-target: 48px;
+
+  /* Shadows - Minimal, Flat Editorial */
+  --shadow-press: 2px 2px 0px #1B1B1B;
+  --shadow-lift: 4px 4px 0px #1B1B1B;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--bg-paper);
+  color: var(--text-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* Background graph paper grid styling */
+body {
+  background-image:
+    linear-gradient(to right, rgba(27, 27, 27, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(27, 27, 27, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0;
+}
+
+/* Typography Defaults */
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-ink);
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+p, span, label, input, button {
+  font-family: var(--font-body);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--accent-teal);
+  outline-offset: 2px;
+}
+
+/* Base Layout Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    padding: 2.5rem 2rem 4rem 2rem;
+  }
+}
+
+/* Header & Stamp Badge */
+.header-bar {
+  background: var(--bg-card);
+  border-bottom: 2px solid var(--border-dark);
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--text-ink);
+}
+
+.brand-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--text-ink);
+  color: var(--bg-paper);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.brand-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-ink);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--text-ink);
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--accent-teal);
+  border-bottom-color: var(--accent-teal);
+}
+
+/* Editorial Cards & Boxes */
+.paper-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-press);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.paper-card-header {
+  border-bottom: 1px solid var(--border-rule);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Confident Flat Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--tap-target);
+  padding: 0 1.25rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid var(--border-dark);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  background: var(--bg-card);
+  color: var(--text-ink);
+  box-shadow: var(--shadow-press);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  user-select: none;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: var(--accent-teal);
+  color: #FFFDF8;
+  border-color: var(--border-dark);
+}
+
+.btn-primary:hover {
+  background: var(--accent-teal-light);
+}
+
+.btn-warning {
+  background: var(--signal-warning);
+  color: #FFFDF8;
+  border-color: var(--border-dark);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--border-dark);
+  color: var(--text-ink);
+}
+
+.btn-sm {
+  min-height: 36px;
+  padding: 0 0.75rem;
+  font-size: 0.85rem;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Form Controls */
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+  color: var(--text-ink);
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  min-height: var(--tap-target);
+  padding: 0.65rem 0.85rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-dark);
+  border-radius: var(--radius-sm);
+  color: var(--text-ink);
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  outline: none;
+  border-color: var(--accent-teal);
+  box-shadow: 0 0 0 2px var(--accent-teal-soft);
+}
+
+.form-hint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+/* Badges and Tags */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-dark);
+}
+
+.badge-teal {
+  background: var(--accent-teal-soft);
+  color: var(--accent-teal);
+  border-color: var(--accent-teal);
+}
+
+.badge-warning {
+  background: var(--signal-warning-soft);
+  color: var(--signal-warning);
+  border-color: var(--signal-warning);
+}
+
+.badge-neutral {
+  background: var(--bg-card-alt);
+  color: var(--text-ink);
+}
+
+/* Tables */
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--border-dark);
+  background: var(--bg-card);
+  margin-top: 1rem;
+}
+
+.editorial-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.editorial-table th {
+  background: var(--bg-card-alt);
+  border-bottom: 2px solid var(--border-dark);
+  padding: 0.75rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-ink);
+}
+
+.editorial-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-rule);
+  vertical-align: middle;
+}
+
+.editorial-table tr:hover td {
+  background: #FAF6ED;
+}
+
+/* Footer */
+.footer-bar {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-rule);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

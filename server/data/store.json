@@ -1,0 +1,2516 @@
+{
+  "settings": {
+    "totalQuestionsPerParticipant": 51,
+    "timeLimitMode": "total",
+    "timeLimitMinutes": 60,
+    "timeLimitSecondsPerQuestion": 60,
+    "marksPerCorrect": 1,
+    "negativeMarking": 0,
+    "passMarkPercentage": 50,
+    "shuffleOptions": true,
+    "showResultsImmediately": true,
+    "showAnswerReviewAfterSubmit": true,
+    "allowMultipleAttemptsPerDevice": true,
+    "maxTabSwitchesAllowed": 1,
+    "isQuizActive": true,
+    "oneAttemptPerParticipant": true
+  },
+  "questions": [
+    {
+      "id": "q_csv_1794404172961_1_jqnf",
+      "originalNumber": 1,
+      "question": "A foundation model is best described as:",
+      "options": {
+        "A": "a model trained for one narrow task only",
+        "B": "a large neural network trained on broad data and then adapted to many tasks",
+        "C": "a database of verified facts that a chatbot looks up",
+        "D": "a product that routes requests to other companies' models"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_2_t1xv",
+      "originalNumber": 2,
+      "question": "In English, one token is roughly equal to:",
+      "options": {
+        "A": "one letter",
+        "B": "one sentence",
+        "C": "three quarters of a word",
+        "D": "one paragraph"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_3_ck1i",
+      "originalNumber": 3,
+      "question": "The context window of a model is:",
+      "options": {
+        "A": "the length of time a chat session stays open",
+        "B": "the number of past chats saved in history",
+        "C": "the side panel where generated outputs appear",
+        "D": "the maximum number of tokens a model can consider at once"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_4_9qy2",
+      "originalNumber": 4,
+      "question": "A confident but false statement produced by a language model is called:",
+      "options": {
+        "A": "a hallucination",
+        "B": "grounding",
+        "C": "prompt injection",
+        "D": "tokenisation"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_5_c130",
+      "originalNumber": 5,
+      "question": "Retrieval-augmented generation (RAG) reduces errors by:",
+      "options": {
+        "A": "retraining the model on the user's files every night",
+        "B": "retrieving relevant passages and giving them to the model along with the question",
+        "C": "switching off web access during a chat",
+        "D": "generating several answers and choosing by vote"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_6_sjxv",
+      "originalNumber": 6,
+      "question": "Which tool does the book name as the clearest example of a source-grounded tool?",
+      "options": {
+        "A": "Canva",
+        "B": "Replit",
+        "C": "NotebookLM",
+        "D": "Adobe Firefly"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_7_huql",
+      "originalNumber": 7,
+      "question": "Of the three levels of capability in Chapter 1, which describes an agent?",
+      "options": {
+        "A": "It answers from its training data and the conversation",
+        "B": "It calls a search tool and uses the results in its answer",
+        "C": "It generates images from a text prompt",
+        "D": "It plans a multi-step task, uses tools repeatedly and checks its own work"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_8_v4k5",
+      "originalNumber": 8,
+      "question": "The Model Context Protocol (MCP) is:",
+      "options": {
+        "A": "a pricing model based on seats",
+        "B": "an open standard, introduced by Anthropic in late 2024, for how AI applications discover and",
+        "C": "Google's image generation model",
+        "D": "a reasoning mode that spends extra computation before answering"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_9_dhs9",
+      "originalNumber": 9,
+      "question": "Which packaging mechanism is loaded by the model only when a task calls for it?",
+      "options": {
+        "A": "Skills",
+        "B": "The system prompt",
+        "C": "Custom instructions",
+        "D": "The context window"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_10_42uf",
+      "originalNumber": 10,
+      "question": "A monthly allowance that is spent per generation or per unit of agent work is called:",
+      "options": {
+        "A": "a tiered subscription",
+        "B": "a per-seat plan",
+        "C": "a usage limit",
+        "D": "credits"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_11_8fwi",
+      "originalNumber": 11,
+      "question": "Which Claude model tier is described as the fastest and cheapest?",
+      "options": {
+        "A": "Opus",
+        "B": "Sonnet",
+        "C": "Haiku",
+        "D": "Fable"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_12_ymrt",
+      "originalNumber": 12,
+      "question": "What is the lowest Claude plan that includes Claude Code?",
+      "options": {
+        "A": "Free",
+        "B": "Pro",
+        "C": "Max 5x",
+        "D": "Enterprise"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_13_1xnk",
+      "originalNumber": 13,
+      "question": "What does Claude Pro cost when billed monthly?",
+      "options": {
+        "A": "$8",
+        "B": "$17",
+        "C": "$25",
+        "D": "$20"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172961_14_2xlf",
+      "originalNumber": 14,
+      "question": "The Claude Max 20x plan gives:",
+      "options": {
+        "A": "20 times the usage of Pro",
+        "B": "20 times the usage of Free",
+        "C": "access for 20 users",
+        "D": "up to 20 projects"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_15_82cs",
+      "originalNumber": 15,
+      "question": "How do Claude's usage limits reset?",
+      "options": {
+        "A": "Every day at midnight",
+        "B": "On a rolling five-hour window, with weekly limits added on paid plans",
+        "C": "Once a month on the billing date",
+        "D": "They never reset"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_16_oqwk",
+      "originalNumber": 16,
+      "question": "In Claude, a skill is:",
+      "options": {
+        "A": "a live link to an outside system such as Gmail",
+        "B": "a saved copy of the chat history",
+        "C": "a folder containing a SKILL.md file of instructions, plus optional reference files and scripts",
+        "D": "a paid add-on that raises usage limits"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_17_77ms",
+      "originalNumber": 17,
+      "question": "Why can many skills be installed without filling Claude's context window?",
+      "options": {
+        "A": "Skills are compressed before they are loaded",
+        "B": "Skills are stored on a separate server",
+        "C": "Only paid plans can install more than one skill",
+        "D": "Claude sees only each skill's name and description until a task matches it"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_18_6dzk",
+      "originalNumber": 18,
+      "question": "A Claude plugin is:",
+      "options": {
+        "A": "a bundle of skills, connectors, commands, subagents and hooks that installs in one click",
+        "B": "a browser bookmark for claude.ai",
+        "C": "a model tier above Opus",
+        "D": "a type of artifact published to a link"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_19_daq7",
+      "originalNumber": 19,
+      "question": "Which Claude feature opens documents, web pages, dashboards and small apps in a side panel where they can be revised and shared?",
+      "options": {
+        "A": "Projects",
+        "B": "Artifacts",
+        "C": "Memory",
+        "D": "Research"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_20_x7sj",
+      "originalNumber": 20,
+      "question": "According to the book, what does Claude not generate natively?",
+      "options": {
+        "A": "Excel files with working formulas",
+        "B": "SVG graphics and diagrams",
+        "C": "Photographic images and video",
+        "D": "Web pages"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_21_m118",
+      "originalNumber": 21,
+      "question": "Which ChatGPT plan is the cheaper, possibly ad-supported step between Free and Plus?",
+      "options": {
+        "A": "Go",
+        "B": "Pro",
+        "C": "Business",
+        "D": "Edu"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_22_p5rc",
+      "originalNumber": 22,
+      "question": "In ChatGPT, dots are:",
+      "options": {
+        "A": "filters applied to generated images",
+        "B": "units of usage credit",
+        "C": "always-on personal agents that work on their own cloud computer between conversations",
+        "D": "folders for organising chats"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_23_kl12",
+      "originalNumber": 23,
+      "question": "On which plans are dots available?",
+      "options": {
+        "A": "All plans, including Free",
+        "B": "Plus and above",
+        "C": "Go only",
+        "D": "Pro, Business Premium and Enterprise"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_24_fovm",
+      "originalNumber": 24,
+      "question": "In ChatGPT Work, Plan mode:",
+      "options": {
+        "A": "chooses the cheapest subscription plan for the user",
+        "B": "gathers context and proposes a step-by-step plan for approval before the work starts",
+        "C": "schedules recurring payments",
+        "D": "books meetings in the user's calendar"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_25_3sdo",
+      "originalNumber": 25,
+      "question": "ChatGPT's Study mode:",
+      "options": {
+        "A": "guides the learner with questions instead of giving the answer",
+        "B": "blocks internet access during exams",
+        "C": "translates textbooks into other languages",
+        "D": "records and summarises lectures only"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_26_i7xi",
+      "originalNumber": 26,
+      "question": "In ChatGPT, a plugin is:",
+      "options": {
+        "A": "a reusable workflow that teaches a procedure",
+        "B": "a custom version of ChatGPT with its own instructions",
+        "C": "a shared workspace of files and chats",
+        "D": "a connection to an outside application that lets ChatGPT read information there and take"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_27_48p7",
+      "originalNumber": 27,
+      "question": "How is a plugin called inside a ChatGPT conversation?",
+      "options": {
+        "A": "By typing # and the plugin name",
+        "B": "By typing @ and the plugin name, or from the Tools menu",
+        "C": "By typing / and the plugin name",
+        "D": "By uploading the plugin file to the chat"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_28_urdx",
+      "originalNumber": 28,
+      "question": "What is the name of OpenAI's coding agent?",
+      "options": {
+        "A": "Codex",
+        "B": "Jules",
+        "C": "Antigravity",
+        "D": "Claude Code"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_29_ju2j",
+      "originalNumber": 29,
+      "question": "On ChatGPT Enterprise and Edu workspaces, plugins are:",
+      "options": {
+        "A": "always on for every member",
+        "B": "not available at all",
+        "C": "off by default until an administrator enables them",
+        "D": "limited to five per member"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_30_dhxm",
+      "originalNumber": 30,
+      "question": "What happens when a user uploads a skill built elsewhere into ChatGPT?",
+      "options": {
+        "A": "It is published to the public directory",
+        "B": "ChatGPT scans it before it becomes available",
+        "C": "It is converted into a custom GPT",
+        "D": "The user is charged per skill"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_31_d2v0",
+      "originalNumber": 31,
+      "question": "Before it was renamed Gemini in 2024, Google's assistant was called:",
+      "options": {
+        "A": "Bard",
+        "B": "Duet",
+        "C": "Assistant Pro",
+        "D": "LaMDA Chat"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_32_sh78",
+      "originalNumber": 32,
+      "question": "According to the book, Gemini's defining advantage is:",
+      "options": {
+        "A": "the only assistant with a voice mode",
+        "B": "fully open-source models",
+        "C": "deep integration with Google Search, Gmail, Docs, Drive, Android and Chrome",
+        "D": "the absence of usage limits"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_33_dvvr",
+      "originalNumber": 33,
+      "question": "In Gemini, a Gem is:",
+      "options": {
+        "A": "Google's image generation model",
+        "B": "a cloud storage plan",
+        "C": "a generated music track",
+        "D": "a saved custom expert with its own instructions and files, Gemini's counterpart to custom"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_34_m2gd",
+      "originalNumber": 34,
+      "question": "Which Google AI plan adds the Deep Think reasoning mode?",
+      "options": {
+        "A": "AI Plus",
+        "B": "AI Pro",
+        "C": "AI Ultra",
+        "D": "Free"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_35_ls69",
+      "originalNumber": 35,
+      "question": "How much cloud storage comes with Google AI Pro?",
+      "options": {
+        "A": "400 GB",
+        "B": "5 TB",
+        "C": "20 TB",
+        "D": "15 GB"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_36_tp3r",
+      "originalNumber": 36,
+      "question": "Which Google models compose music with instruments, vocals and lyrics?",
+      "options": {
+        "A": "Veo",
+        "B": "Lyria",
+        "C": "Imagen",
+        "D": "Flow"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_37_w7d7",
+      "originalNumber": 37,
+      "question": "Why may a student who has only a university Google account be unable to buy Google AI Pro?",
+      "options": {
+        "A": "Only personal Google accounts can buy Google AI plans",
+        "B": "Students must be over 25 years old",
+        "C": "Google AI Pro is sold only in the United States",
+        "D": "University accounts already include AI Ultra"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_38_trsj",
+      "originalNumber": 38,
+      "question": "Which Google tool is an asynchronous coding agent that connects to a code repository, fixes issues and drafts pull requests?",
+      "options": {
+        "A": "Gemini Spark",
+        "B": "Canvas",
+        "C": "Google AI Studio",
+        "D": "Jules"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_39_1or4",
+      "originalNumber": 39,
+      "question": "In July 2026 Google renamed NotebookLM as:",
+      "options": {
+        "A": "Google Notes",
+        "B": "Gemini Notebook",
+        "C": "Gemini Research",
+        "D": "Notebook Pro"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_40_b17c",
+      "originalNumber": 40,
+      "question": "NotebookLM's speciality is:",
+      "options": {
+        "A": "generating photographic images",
+        "B": "running coding agents in parallel",
+        "C": "source-grounding: answering from the user's own sources and citing the passage for each",
+        "D": "hosting web applications"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_41_utix",
+      "originalNumber": 41,
+      "question": "An Audio Overview is:",
+      "options": {
+        "A": "a podcast-style discussion between two AI hosts, generated from the notebook's sources",
+        "B": "a voice recording of the user's own notes",
+        "C": "a music track generated from a text prompt",
+        "D": "a transcript of a YouTube video"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_42_nful",
+      "originalNumber": 42,
+      "question": "How many sources per notebook does the free tier allow, as reported in the book?",
+      "options": {
+        "A": "10",
+        "B": "25",
+        "C": "100",
+        "D": "50"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_43_2z30",
+      "originalNumber": 43,
+      "question": "What does unticking some sources in a notebook do?",
+      "options": {
+        "A": "Deletes them permanently",
+        "B": "Limits the answer to the sources that remain selected",
+        "C": "Shares them with collaborators",
+        "D": "Translates them into English"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_44_7ol4",
+      "originalNumber": 44,
+      "question": "Interactive Audio Overviews let the listener:",
+      "options": {
+        "A": "join the conversation by voice and ask the hosts to clarify or go deeper",
+        "B": "download the audio as a video file",
+        "C": "change the hosts into celebrity voices",
+        "D": "skip the citations"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_45_ovpo",
+      "originalNumber": 45,
+      "question": "For which task does the book call NotebookLM a poor fit?",
+      "options": {
+        "A": "Literature review across dozens of papers",
+        "B": "Studying a course from lecture notes and readings",
+        "C": "Onboarding staff from policy documents",
+        "D": "Open-ended creative writing or coding"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_46_xuxk",
+      "originalNumber": 46,
+      "question": "Which statement about grounding in NotebookLM is correct?",
+      "options": {
+        "A": "It cannot read PDF files",
+        "B": "It works only in English",
+        "C": "It lowers hallucination but does not eliminate it, so citations should still be checked",
+        "D": "It requires a paid plan"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_47_3cwb",
+      "originalNumber": 47,
+      "question": "Google Antigravity is best described as:",
+      "options": {
+        "A": "a photo-editing app",
+        "B": "an agent-first software development platform",
+        "C": "a source-grounded research notebook",
+        "D": "a decentralised hosting network"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_48_clb4",
+      "originalNumber": 48,
+      "question": "In Antigravity, artifacts are:",
+      "options": {
+        "A": "bugs left behind by an agent",
+        "B": "the source files of a project",
+        "C": "images generated with Nano Banana",
+        "D": "reviewable evidence such as implementation plans, walkthroughs, screenshots and browser"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_49_kjly",
+      "originalNumber": 49,
+      "question": "How often is the agent quota refreshed for users without a Google AI Pro or Ultra plan?",
+      "options": {
+        "A": "Every five hours",
+        "B": "Daily",
+        "C": "Weekly",
+        "D": "Monthly"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_50_y6po",
+      "originalNumber": 50,
+      "question": "Which plan gives access to third-party (non-Gemini) models in Antigravity?",
+      "options": {
+        "A": "Google AI Ultra",
+        "B": "Free individual",
+        "C": "Google AI Plus",
+        "D": "Google AI Pro"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_51_6sq2",
+      "originalNumber": 51,
+      "question": "Where are workspace skills stored so a whole team can share them through version control?",
+      "options": {
+        "A": "In Google Drive",
+        "B": "In the .agents/skills folder inside the project",
+        "C": "In the user's Downloads folder",
+        "D": "Only on Google's servers"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_52_3wgp",
+      "originalNumber": 52,
+      "question": "In the Antigravity CLI, every skill automatically becomes:",
+      "options": {
+        "A": "a plugin",
+        "B": "a subagent",
+        "C": "a slash command",
+        "D": "a rule"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_53_5fxc",
+      "originalNumber": 53,
+      "question": "What is the one required file in an Antigravity plugin folder?",
+      "options": {
+        "A": "plugin.json",
+        "B": "SKILL.md",
+        "C": "hooks.json",
+        "D": "package.json"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_54_dgq8",
+      "originalNumber": 54,
+      "question": "According to the book, Antigravity suits which users best?",
+      "options": {
+        "A": "Complete beginners who never want to see code",
+        "B": "Photographers editing images",
+        "C": "People who only need web hosting",
+        "D": "Users with some programming knowledge"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_55_q5ez",
+      "originalNumber": 55,
+      "question": "Who created Caffeine?",
+      "options": {
+        "A": "Google",
+        "B": "Replit",
+        "C": "The DFINITY Foundation",
+        "D": "Adobe"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_56_gxw3",
+      "originalNumber": 56,
+      "question": "On which network do Caffeine apps run?",
+      "options": {
+        "A": "The Internet Computer",
+        "B": "Amazon Web Services only",
+        "C": "Replit's cloud",
+        "D": "The user's mobile phone"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_57_0yk1",
+      "originalNumber": 57,
+      "question": "What does DFINITY call the idea of software created and continually revised by AI through conversation?",
+      "options": {
+        "A": "Vibe coding",
+        "B": "Agent-first development",
+        "C": "Source-grounding",
+        "D": "The self-writing internet"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_58_s338",
+      "originalNumber": 58,
+      "question": "What can a user do on Caffeine's Free plan?",
+      "options": {
+        "A": "Build unlimited apps from scratch",
+        "B": "Remix apps from the App Market only",
+        "C": "Host one app on a custom domain",
+        "D": "Use a shared team workspace"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_59_kwkp",
+      "originalNumber": 59,
+      "question": "What does the Caffeine Studio plan cost per month with annual billing?",
+      "options": {
+        "A": "$4",
+        "B": "$80",
+        "C": "$20",
+        "D": "$8"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_60_8i22",
+      "originalNumber": 60,
+      "question": "Caffeine's \"Ask your apps\" feature:",
+      "options": {
+        "A": "answers plain-language questions by reading across the data in all the apps a user has built",
+        "B": "asks the user to rate each app",
+        "C": "sends survey emails to app users",
+        "D": "lists apps for sale on the App Market"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_61_e69s",
+      "originalNumber": 61,
+      "question": "Why does the book stress safe upgrades on Caffeine?",
+      "options": {
+        "A": "Because the Internet Computer charges per upgrade",
+        "B": "Because apps cannot be exported",
+        "C": "Because users must write migration code by hand",
+        "D": "Because AI rewrites the app repeatedly, so stored data must survive each rewrite"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_62_s3kt",
+      "originalNumber": 62,
+      "question": "According to the book, Replit's speciality is:",
+      "options": {
+        "A": "commercially safe image generation",
+        "B": "the complete path from idea to live product inside one tool",
+        "C": "answering only from uploaded sources",
+        "D": "decentralised, tamper-resistant hosting"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_63_vwkg",
+      "originalNumber": 63,
+      "question": "Replit's effort-based pricing means that:",
+      "options": {
+        "A": "agent work is charged by the computation each request actually requires",
+        "B": "every message costs the same fixed amount",
+        "C": "only failed builds are charged",
+        "D": "users pay per line of code written"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_64_m83u",
+      "originalNumber": 64,
+      "question": "Replit's Free Mode is:",
+      "options": {
+        "A": "another name for the free Starter plan",
+        "B": "a trial of the Pro plan for 30 days",
+        "C": "an allowance on paid plans for everyday agent work that does not spend credits",
+        "D": "a mode that turns off the AI agent"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_65_y4ke",
+      "originalNumber": 65,
+      "question": "Which database is built into every Replit app?",
+      "options": {
+        "A": "MongoDB",
+        "B": "SQLite only",
+        "C": "Firebase",
+        "D": "Managed PostgreSQL"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_66_0q74",
+      "originalNumber": 66,
+      "question": "How many parallel agents does Replit Pro allow?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "Unlimited"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_67_lris",
+      "originalNumber": 67,
+      "question": "In Replit, checkpoints are:",
+      "options": {
+        "A": "snapshots the agent saves while working, so the project can be rolled back",
+        "B": "security scans run before publishing",
+        "C": "billing alerts",
+        "D": "code reviews by Replit staff"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_68_9cl2",
+      "originalNumber": 68,
+      "question": "What does the book identify as the most common complaint about Replit?",
+      "options": {
+        "A": "It has no database",
+        "B": "Apps cannot be deployed",
+        "C": "It supports only Python",
+        "D": "Unpredictable usage-based costs"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_69_825x",
+      "originalNumber": 69,
+      "question": "Adobe Firefly's defining claim is:",
+      "options": {
+        "A": "the lowest price of any image generator",
+        "B": "the ability to build web apps",
+        "C": "commercial safety, because Adobe's own models are trained on licensed and public-domain",
+        "D": "unlimited free video generation"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_70_xuyu",
+      "originalNumber": 70,
+      "question": "Content Credentials are:",
+      "options": {
+        "A": "tamper-evident metadata that records how a media file was made, including AI involvement",
+        "B": "login details for Adobe accounts",
+        "C": "a certificate for completing an Adobe course",
+        "D": "credits used to buy stock photos"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_71_4ed6",
+      "originalNumber": 71,
+      "question": "Adobe's commercial-safety assurance applies to:",
+      "options": {
+        "A": "every model available in the Firefly app",
+        "B": "Adobe's own Firefly models, but not partner models",
+        "C": "partner models only",
+        "D": "video outputs only"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_72_oe8z",
+      "originalNumber": 72,
+      "question": "On paid Firefly plans, standard features such as Generate Image and Generative Fill:",
+      "options": {
+        "A": "cost ten generative credits each",
+        "B": "are available only on Premium",
+        "C": "are limited to 20 uses a month",
+        "D": "are unlimited and do not consume generative credits"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_73_has0",
+      "originalNumber": 73,
+      "question": "How many generative credits per month does Firefly Premium include?",
+      "options": {
+        "A": "50,000",
+        "B": "10,000",
+        "C": "4,000",
+        "D": "2,000"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_74_ctw0",
+      "originalNumber": 74,
+      "question": "What happens to unused Firefly generative credits?",
+      "options": {
+        "A": "They roll over for 12 months",
+        "B": "They are refunded",
+        "C": "They reset on the billing date and do not roll over",
+        "D": "They convert into Adobe Stock downloads"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_75_4sj1",
+      "originalNumber": 75,
+      "question": "Firefly's Text to Vector feature produces:",
+      "options": {
+        "A": "a low-resolution raster image",
+        "B": "editable vector artwork that scales without loss",
+        "C": "a 3D model",
+        "D": "an animated GIF"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_76_21i2",
+      "originalNumber": 76,
+      "question": "Firefly Boards is:",
+      "options": {
+        "A": "a discussion forum for Adobe users",
+        "B": "an admin console for teams",
+        "C": "a list of partner models",
+        "D": "an infinite canvas for mood boards, storyboards and concept exploration"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_77_yy2u",
+      "originalNumber": 77,
+      "question": "Canva is built primarily for:",
+      "options": {
+        "A": "professional designers only",
+        "B": "software developers",
+        "C": "people who are not professional designers",
+        "D": "professional photographers"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_78_e6r0",
+      "originalNumber": 78,
+      "question": "What does Canva Pro cost when billed yearly?",
+      "options": {
+        "A": "$144 per year",
+        "B": "$250 per year",
+        "C": "$99 per year",
+        "D": "$20 per year"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_79_gnsg",
+      "originalNumber": 79,
+      "question": "Which Canva AI tier, such as designing through conversation, draws on the AI allowance fastest?",
+      "options": {
+        "A": "Standard",
+        "B": "Premium",
+        "C": "Basic",
+        "D": "Ultra"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_80_qzvm",
+      "originalNumber": 80,
+      "question": "Canva Code is used to:",
+      "options": {
+        "A": "write Python scripts",
+        "B": "generate interactive designs such as calculators, quizzes and mini-apps from a description",
+        "C": "host websites on the Internet Computer",
+        "D": "review code for security flaws"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_81_belo",
+      "originalNumber": 81,
+      "question": "Canva's Magic Layers feature:",
+      "options": {
+        "A": "adds animation layers to video",
+        "B": "stacks templates on top of one another",
+        "C": "converts a flat image into separate editable layers",
+        "D": "applies a brand colour palette"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_82_u8rn",
+      "originalNumber": 82,
+      "question": "Canva's AI Pass is:",
+      "options": {
+        "A": "a monthly add-on for Pro and Business that greatly increases the AI allowance",
+        "B": "a free trial of Canva Enterprise",
+        "C": "a login method using single sign-on",
+        "D": "a certificate for completing Canva Design School"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_83_lde8",
+      "originalNumber": 83,
+      "question": "Which Canva plan includes AI output indemnity (Canva Shield)?",
+      "options": {
+        "A": "Free",
+        "B": "Pro",
+        "C": "Business",
+        "D": "Enterprise"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_84_nuu6",
+      "originalNumber": 84,
+      "question": "Canva's bulk create feature:",
+      "options": {
+        "A": "uploads many photos at once",
+        "B": "uses a spreadsheet of names or products to generate many personalised designs from one",
+        "C": "prints designs in large quantities",
+        "D": "invites a whole team at once"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_85_6064",
+      "originalNumber": 85,
+      "question": "According to Chapter 11, what is the standard monthly price of a full individual plan across most tools?",
+      "options": {
+        "A": "About $5",
+        "B": "About $10",
+        "C": "About $20",
+        "D": "About $50"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_86_x9f0",
+      "originalNumber": 86,
+      "question": "A single Google AI plan raises limits in which four tools covered in the book?",
+      "options": {
+        "A": "Gemini, Gemini Notebook, Antigravity and Flow",
+        "B": "Gemini, Canva, Replit and Firefly",
+        "C": "ChatGPT, Gemini, Claude and Caffeine",
+        "D": "Gemini, Codex, Jules and Canva"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_87_7xy8",
+      "originalNumber": 87,
+      "question": "What is the first question in the book's five-question decision procedure for choosing a tool?",
+      "options": {
+        "A": "What will it cost at my volume?",
+        "B": "Who needs to work on it afterwards?",
+        "C": "Where does the source material live?",
+        "D": "What is the output?"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_88_ilvn",
+      "originalNumber": 88,
+      "question": "Which three tools in the book support the Agent Skills format?",
+      "options": {
+        "A": "Canva, Adobe Firefly and Replit",
+        "B": "Claude, ChatGPT and Antigravity",
+        "C": "Gemini, NotebookLM and Caffeine",
+        "D": "ChatGPT, Canva and Replit"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_89_1iwj",
+      "originalNumber": 89,
+      "question": "Which tool does the book recommend first for producing imagery for commercial use?",
+      "options": {
+        "A": "ChatGPT",
+        "B": "Gemini",
+        "C": "Adobe Firefly",
+        "D": "NotebookLM"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_90_dm3m",
+      "originalNumber": 90,
+      "question": "Section 11.7 divides plugins into two families. Claude plugins and Antigravity plugins belong to which family?",
+      "options": {
+        "A": "Access plugins, which let the assistant reach another system",
+        "B": "Payment plugins, which handle subscriptions",
+        "C": "Browser plugins, which run inside Chrome",
+        "D": "Capability bundles, which change how the assistant does a kind of job"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_91_pcm7",
+      "originalNumber": 91,
+      "question": "Which of the following is an example of an access plugin?",
+      "options": {
+        "A": "A ChatGPT plugin connecting to Google Drive",
+        "B": "An Antigravity plugin bundling skills and rules",
+        "C": "A Claude plugin bundling skills, commands and hooks",
+        "D": "An Antigravity rule file"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_92_erxy",
+      "originalNumber": 92,
+      "question": "Why does the book advise installing only a few plugins?",
+      "options": {
+        "A": "Each plugin costs extra every month",
+        "B": "Each plugin adds tools and instructions the model must weigh, which can slow it down and",
+        "C": "Most plugins work only on Enterprise plans",
+        "D": "Plugins delete chat history when removed"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_93_h7us",
+      "originalNumber": 93,
+      "question": "For the task \"build an app without seeing code\", which tools does the book name as the first choice?",
+      "options": {
+        "A": "Antigravity and Claude Code",
+        "B": "Codex and Jules",
+        "C": "Caffeine and Replit",
+        "D": "Adobe Firefly and Canva"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_94_6alc",
+      "originalNumber": 94,
+      "question": "Prompt injection is:",
+      "options": {
+        "A": "typing a very long prompt to get a better answer",
+        "B": "hidden instructions in a web page, document or email that try to redirect an agent",
+        "C": "a method of training a model faster",
+        "D": "copying a prompt from another user"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_95_9eel",
+      "originalNumber": 95,
+      "question": "What is the typical model-training position on team and business plans?",
+      "options": {
+        "A": "All content is used for training by default",
+        "B": "Users must opt in before any chat is saved",
+        "C": "Only uploaded images are used for training",
+        "D": "Customer content is not used for training by default"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172962_96_8eys",
+      "originalNumber": 96,
+      "question": "In the book's verification routine, a citation that exists:",
+      "options": {
+        "A": "is not proof that it supports the claim, so the source should be opened",
+        "B": "guarantees the claim is correct",
+        "C": "should be removed from the final work",
+        "D": "can be trusted if it comes from a paid plan"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172963_97_c5a8",
+      "originalNumber": 97,
+      "question": "In several jurisdictions, what is the copyright position of purely machine-generated work?",
+      "options": {
+        "A": "It is always fully protected",
+        "B": "The AI vendor automatically owns it",
+        "C": "It receives little or no protection; human selection, arrangement and editing strengthen a",
+        "D": "It is protected only if it is printed"
+      },
+      "answer": "C",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172963_98_80a6",
+      "originalNumber": 98,
+      "question": "To manage the risk of runaway cost from long autonomous agent runs, the book advises:",
+      "options": {
+        "A": "using only free plans",
+        "B": "running agents only at night",
+        "C": "avoiding agents entirely",
+        "D": "setting spending limits first"
+      },
+      "answer": "D",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172963_99_w7dl",
+      "originalNumber": 99,
+      "question": "Which use of AI does the book describe as acceptable in most academic settings?",
+      "options": {
+        "A": "Submitting generated text as your own writing where original writing is assessed",
+        "B": "Getting feedback on a draft you wrote yourself",
+        "C": "Letting AI invent references for a bibliography",
+        "D": "Hiding AI use when the course policy requires disclosure"
+      },
+      "answer": "B",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    },
+    {
+      "id": "q_csv_1794404172963_100_3okf",
+      "originalNumber": 100,
+      "question": "What does the book advise to limit the risk of over-broad agent permissions?",
+      "options": {
+        "A": "Grant the narrowest access the task needs, and use sandboxes and allowlists",
+        "B": "Give agents administrator access so they never get stuck",
+        "C": "Share passwords in the prompt so the agent can log in",
+        "D": "Turn off all permission prompts to save time"
+      },
+      "answer": "A",
+      "category": "General",
+      "isValid": true,
+      "issues": []
+    }
+  ],
+  "stagingQuestions": [],
+  "attempts": [
+    {
+      "id": "att_1794404210266_35b96d7a",
+      "participant": {
+        "name": "shetty",
+        "email": "chikkabilagodu@gmail.com",
+        "phone": "",
+        "college": "bb"
+      },
+      "assignedQuestionIds": [
+        "q_csv_1794404172962_70_xuyu",
+        "q_csv_1794404172962_36_tp3r",
+        "q_csv_1794404172962_93_h7us",
+        "q_csv_1794404172962_94_6alc",
+        "q_csv_1794404172961_6_sjxv",
+        "q_csv_1794404172962_29_ju2j",
+        "q_csv_1794404172962_86_x9f0",
+        "q_csv_1794404172962_75_4sj1",
+        "q_csv_1794404172962_31_d2v0",
+        "q_csv_1794404172962_78_e6r0"
+      ],
+      "clientQuestions": [
+        {
+          "id": "q_csv_1794404172962_70_xuyu",
+          "index": 1,
+          "question": "Content Credentials are:",
+          "options": {
+            "A": "credits used to buy stock photos",
+            "B": "a certificate for completing an Adobe course",
+            "C": "tamper-evident metadata that records how a media file was made, including AI involvement",
+            "D": "login details for Adobe accounts"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_36_tp3r",
+          "index": 2,
+          "question": "Which Google models compose music with instruments, vocals and lyrics?",
+          "options": {
+            "A": "Imagen",
+            "B": "Lyria",
+            "C": "Veo",
+            "D": "Flow"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_93_h7us",
+          "index": 3,
+          "question": "For the task \"build an app without seeing code\", which tools does the book name as the first choice?",
+          "options": {
+            "A": "Caffeine and Replit",
+            "B": "Antigravity and Claude Code",
+            "C": "Adobe Firefly and Canva",
+            "D": "Codex and Jules"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_94_6alc",
+          "index": 4,
+          "question": "Prompt injection is:",
+          "options": {
+            "A": "hidden instructions in a web page, document or email that try to redirect an agent",
+            "B": "typing a very long prompt to get a better answer",
+            "C": "copying a prompt from another user",
+            "D": "a method of training a model faster"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_6_sjxv",
+          "index": 5,
+          "question": "Which tool does the book name as the clearest example of a source-grounded tool?",
+          "options": {
+            "A": "Replit",
+            "B": "Adobe Firefly",
+            "C": "NotebookLM",
+            "D": "Canva"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_29_ju2j",
+          "index": 6,
+          "question": "On ChatGPT Enterprise and Edu workspaces, plugins are:",
+          "options": {
+            "A": "always on for every member",
+            "B": "off by default until an administrator enables them",
+            "C": "limited to five per member",
+            "D": "not available at all"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_86_x9f0",
+          "index": 7,
+          "question": "A single Google AI plan raises limits in which four tools covered in the book?",
+          "options": {
+            "A": "Gemini, Codex, Jules and Canva",
+            "B": "ChatGPT, Gemini, Claude and Caffeine",
+            "C": "Gemini, Canva, Replit and Firefly",
+            "D": "Gemini, Gemini Notebook, Antigravity and Flow"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_75_4sj1",
+          "index": 8,
+          "question": "Firefly's Text to Vector feature produces:",
+          "options": {
+            "A": "editable vector artwork that scales without loss",
+            "B": "an animated GIF",
+            "C": "a 3D model",
+            "D": "a low-resolution raster image"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_31_d2v0",
+          "index": 9,
+          "question": "Before it was renamed Gemini in 2024, Google's assistant was called:",
+          "options": {
+            "A": "Assistant Pro",
+            "B": "Bard",
+            "C": "Duet",
+            "D": "LaMDA Chat"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_78_e6r0",
+          "index": 10,
+          "question": "What does Canva Pro cost when billed yearly?",
+          "options": {
+            "A": "$250 per year",
+            "B": "$20 per year",
+            "C": "$99 per year",
+            "D": "$144 per year"
+          },
+          "category": "General"
+        }
+      ],
+      "privateAnswerKey": {
+        "q_csv_1794404172962_70_xuyu": "C",
+        "q_csv_1794404172962_36_tp3r": "B",
+        "q_csv_1794404172962_93_h7us": "A",
+        "q_csv_1794404172962_94_6alc": "A",
+        "q_csv_1794404172961_6_sjxv": "C",
+        "q_csv_1794404172962_29_ju2j": "B",
+        "q_csv_1794404172962_86_x9f0": "D",
+        "q_csv_1794404172962_75_4sj1": "A",
+        "q_csv_1794404172962_31_d2v0": "B",
+        "q_csv_1794404172962_78_e6r0": "D"
+      },
+      "answers": {
+        "q_csv_1794404172962_70_xuyu": "C",
+        "q_csv_1794404172962_36_tp3r": "B",
+        "q_csv_1794404172962_93_h7us": "A",
+        "q_csv_1794404172962_94_6alc": "A",
+        "q_csv_1794404172961_6_sjxv": "B",
+        "q_csv_1794404172962_29_ju2j": "B",
+        "q_csv_1794404172962_86_x9f0": "D",
+        "q_csv_1794404172962_75_4sj1": "A",
+        "q_csv_1794404172962_31_d2v0": "B",
+        "q_csv_1794404172962_78_e6r0": "D"
+      },
+      "reviewed": {
+        "q_csv_1794404172962_70_xuyu": false,
+        "q_csv_1794404172962_36_tp3r": false,
+        "q_csv_1794404172962_93_h7us": false,
+        "q_csv_1794404172962_94_6alc": false,
+        "q_csv_1794404172961_6_sjxv": false,
+        "q_csv_1794404172962_29_ju2j": false,
+        "q_csv_1794404172962_86_x9f0": false,
+        "q_csv_1794404172962_75_4sj1": false,
+        "q_csv_1794404172962_31_d2v0": false,
+        "q_csv_1794404172962_78_e6r0": false
+      },
+      "startTime": 1794404210266,
+      "endTime": 1794405110266,
+      "status": "submitted",
+      "tabSwitchCount": 0,
+      "tabSwitchEvents": [],
+      "result": {
+        "totalQuestions": 10,
+        "attended": 10,
+        "unattended": 0,
+        "correct": 9,
+        "wrong": 1,
+        "marksPerCorrect": 1,
+        "negativeMarking": 0,
+        "finalScore": 9,
+        "maxPossibleScore": 10,
+        "percentage": 90,
+        "passed": true,
+        "passMarkPercentage": 50,
+        "timeTakenSeconds": 106,
+        "rank": 1
+      },
+      "submittedAt": 1794404316897
+    },
+    {
+      "id": "att_1794405756664_ed058cfb",
+      "sessionToken": "6d5729635876ebea85cfbd5f9ba1f485bfeef8652505f3fe",
+      "deviceId": "dev_1794405756656_o4qur1l",
+      "participant": {
+        "name": "Vanaja Shetty"
+      },
+      "settings": {
+        "totalQuestions": 51,
+        "timeLimitMode": "total",
+        "timeLimitMinutes": 60,
+        "timeLimitSecondsPerQuestion": 60,
+        "totalTimeSeconds": 3600,
+        "marksPerCorrect": 1,
+        "negativeMarking": 0,
+        "passMarkPercentage": 50,
+        "shuffleOptions": true
+      },
+      "assignedQuestionIds": [
+        "q_csv_1794404172962_28_urdx",
+        "q_csv_1794404172961_9_dhs9",
+        "q_csv_1794404172962_76_21i2",
+        "q_csv_1794404172962_87_7xy8",
+        "q_csv_1794404172962_81_belo",
+        "q_csv_1794404172962_80_qzvm",
+        "q_csv_1794404172961_14_2xlf",
+        "q_csv_1794404172962_88_ilvn",
+        "q_csv_1794404172963_100_3okf",
+        "q_csv_1794404172961_11_8fwi",
+        "q_csv_1794404172962_47_3cwb",
+        "q_csv_1794404172962_44_7ol4",
+        "q_csv_1794404172962_89_1iwj",
+        "q_csv_1794404172962_57_0yk1",
+        "q_csv_1794404172961_1_jqnf",
+        "q_csv_1794404172962_59_kwkp",
+        "q_csv_1794404172962_18_6dzk",
+        "q_csv_1794404172962_55_q5ez",
+        "q_csv_1794404172962_73_has0",
+        "q_csv_1794404172962_84_nuu6",
+        "q_csv_1794404172962_15_82cs",
+        "q_csv_1794404172962_63_vwkg",
+        "q_csv_1794404172962_17_77ms",
+        "q_csv_1794404172963_99_w7dl",
+        "q_csv_1794404172962_96_8eys",
+        "q_csv_1794404172962_20_x7sj",
+        "q_csv_1794404172962_79_gnsg",
+        "q_csv_1794404172961_12_ymrt",
+        "q_csv_1794404172961_5_c130",
+        "q_csv_1794404172962_39_1or4",
+        "q_csv_1794404172962_65_y4ke",
+        "q_csv_1794404172962_24_fovm",
+        "q_csv_1794404172962_75_4sj1",
+        "q_csv_1794404172963_98_80a6",
+        "q_csv_1794404172962_62_s3kt",
+        "q_csv_1794404172962_40_b17c",
+        "q_csv_1794404172962_35_ls69",
+        "q_csv_1794404172962_42_nful",
+        "q_csv_1794404172962_29_ju2j",
+        "q_csv_1794404172961_7_huql",
+        "q_csv_1794404172962_41_utix",
+        "q_csv_1794404172962_46_xuxk",
+        "q_csv_1794404172962_25_3sdo",
+        "q_csv_1794404172962_67_lris",
+        "q_csv_1794404172962_38_trsj",
+        "q_csv_1794404172962_56_gxw3",
+        "q_csv_1794404172962_86_x9f0",
+        "q_csv_1794404172962_36_tp3r",
+        "q_csv_1794404172962_72_oe8z",
+        "q_csv_1794404172962_19_daq7",
+        "q_csv_1794404172962_48_clb4"
+      ],
+      "clientQuestions": [
+        {
+          "id": "q_csv_1794404172962_28_urdx",
+          "index": 1,
+          "question": "What is the name of OpenAI's coding agent?",
+          "options": {
+            "A": "Antigravity",
+            "B": "Jules",
+            "C": "Codex",
+            "D": "Claude Code"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_9_dhs9",
+          "index": 2,
+          "question": "Which packaging mechanism is loaded by the model only when a task calls for it?",
+          "options": {
+            "A": "The system prompt",
+            "B": "Skills",
+            "C": "The context window",
+            "D": "Custom instructions"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_76_21i2",
+          "index": 3,
+          "question": "Firefly Boards is:",
+          "options": {
+            "A": "a list of partner models",
+            "B": "a discussion forum for Adobe users",
+            "C": "an infinite canvas for mood boards, storyboards and concept exploration",
+            "D": "an admin console for teams"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_87_7xy8",
+          "index": 4,
+          "question": "What is the first question in the book's five-question decision procedure for choosing a tool?",
+          "options": {
+            "A": "What is the output?",
+            "B": "Who needs to work on it afterwards?",
+            "C": "What will it cost at my volume?",
+            "D": "Where does the source material live?"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_81_belo",
+          "index": 5,
+          "question": "Canva's Magic Layers feature:",
+          "options": {
+            "A": "stacks templates on top of one another",
+            "B": "converts a flat image into separate editable layers",
+            "C": "adds animation layers to video",
+            "D": "applies a brand colour palette"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_80_qzvm",
+          "index": 6,
+          "question": "Canva Code is used to:",
+          "options": {
+            "A": "generate interactive designs such as calculators, quizzes and mini-apps from a description",
+            "B": "review code for security flaws",
+            "C": "write Python scripts",
+            "D": "host websites on the Internet Computer"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_14_2xlf",
+          "index": 7,
+          "question": "The Claude Max 20x plan gives:",
+          "options": {
+            "A": "access for 20 users",
+            "B": "up to 20 projects",
+            "C": "20 times the usage of Free",
+            "D": "20 times the usage of Pro"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_88_ilvn",
+          "index": 8,
+          "question": "Which three tools in the book support the Agent Skills format?",
+          "options": {
+            "A": "Canva, Adobe Firefly and Replit",
+            "B": "ChatGPT, Canva and Replit",
+            "C": "Claude, ChatGPT and Antigravity",
+            "D": "Gemini, NotebookLM and Caffeine"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172963_100_3okf",
+          "index": 9,
+          "question": "What does the book advise to limit the risk of over-broad agent permissions?",
+          "options": {
+            "A": "Grant the narrowest access the task needs, and use sandboxes and allowlists",
+            "B": "Turn off all permission prompts to save time",
+            "C": "Share passwords in the prompt so the agent can log in",
+            "D": "Give agents administrator access so they never get stuck"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_11_8fwi",
+          "index": 10,
+          "question": "Which Claude model tier is described as the fastest and cheapest?",
+          "options": {
+            "A": "Fable",
+            "B": "Sonnet",
+            "C": "Haiku",
+            "D": "Opus"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_47_3cwb",
+          "index": 11,
+          "question": "Google Antigravity is best described as:",
+          "options": {
+            "A": "an agent-first software development platform",
+            "B": "a photo-editing app",
+            "C": "a source-grounded research notebook",
+            "D": "a decentralised hosting network"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_44_7ol4",
+          "index": 12,
+          "question": "Interactive Audio Overviews let the listener:",
+          "options": {
+            "A": "download the audio as a video file",
+            "B": "change the hosts into celebrity voices",
+            "C": "join the conversation by voice and ask the hosts to clarify or go deeper",
+            "D": "skip the citations"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_89_1iwj",
+          "index": 13,
+          "question": "Which tool does the book recommend first for producing imagery for commercial use?",
+          "options": {
+            "A": "Gemini",
+            "B": "NotebookLM",
+            "C": "Adobe Firefly",
+            "D": "ChatGPT"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_57_0yk1",
+          "index": 14,
+          "question": "What does DFINITY call the idea of software created and continually revised by AI through conversation?",
+          "options": {
+            "A": "Vibe coding",
+            "B": "Agent-first development",
+            "C": "The self-writing internet",
+            "D": "Source-grounding"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_1_jqnf",
+          "index": 15,
+          "question": "A foundation model is best described as:",
+          "options": {
+            "A": "a database of verified facts that a chatbot looks up",
+            "B": "a model trained for one narrow task only",
+            "C": "a large neural network trained on broad data and then adapted to many tasks",
+            "D": "a product that routes requests to other companies' models"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_59_kwkp",
+          "index": 16,
+          "question": "What does the Caffeine Studio plan cost per month with annual billing?",
+          "options": {
+            "A": "$80",
+            "B": "$20",
+            "C": "$8",
+            "D": "$4"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_18_6dzk",
+          "index": 17,
+          "question": "A Claude plugin is:",
+          "options": {
+            "A": "a model tier above Opus",
+            "B": "a bundle of skills, connectors, commands, subagents and hooks that installs in one click",
+            "C": "a browser bookmark for claude.ai",
+            "D": "a type of artifact published to a link"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_55_q5ez",
+          "index": 18,
+          "question": "Who created Caffeine?",
+          "options": {
+            "A": "Adobe",
+            "B": "Replit",
+            "C": "Google",
+            "D": "The DFINITY Foundation"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_73_has0",
+          "index": 19,
+          "question": "How many generative credits per month does Firefly Premium include?",
+          "options": {
+            "A": "10,000",
+            "B": "50,000",
+            "C": "4,000",
+            "D": "2,000"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_84_nuu6",
+          "index": 20,
+          "question": "Canva's bulk create feature:",
+          "options": {
+            "A": "prints designs in large quantities",
+            "B": "uses a spreadsheet of names or products to generate many personalised designs from one",
+            "C": "invites a whole team at once",
+            "D": "uploads many photos at once"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_15_82cs",
+          "index": 21,
+          "question": "How do Claude's usage limits reset?",
+          "options": {
+            "A": "Once a month on the billing date",
+            "B": "Every day at midnight",
+            "C": "On a rolling five-hour window, with weekly limits added on paid plans",
+            "D": "They never reset"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_63_vwkg",
+          "index": 22,
+          "question": "Replit's effort-based pricing means that:",
+          "options": {
+            "A": "agent work is charged by the computation each request actually requires",
+            "B": "every message costs the same fixed amount",
+            "C": "only failed builds are charged",
+            "D": "users pay per line of code written"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_17_77ms",
+          "index": 23,
+          "question": "Why can many skills be installed without filling Claude's context window?",
+          "options": {
+            "A": "Skills are compressed before they are loaded",
+            "B": "Skills are stored on a separate server",
+            "C": "Claude sees only each skill's name and description until a task matches it",
+            "D": "Only paid plans can install more than one skill"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172963_99_w7dl",
+          "index": 24,
+          "question": "Which use of AI does the book describe as acceptable in most academic settings?",
+          "options": {
+            "A": "Hiding AI use when the course policy requires disclosure",
+            "B": "Getting feedback on a draft you wrote yourself",
+            "C": "Letting AI invent references for a bibliography",
+            "D": "Submitting generated text as your own writing where original writing is assessed"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_96_8eys",
+          "index": 25,
+          "question": "In the book's verification routine, a citation that exists:",
+          "options": {
+            "A": "should be removed from the final work",
+            "B": "can be trusted if it comes from a paid plan",
+            "C": "is not proof that it supports the claim, so the source should be opened",
+            "D": "guarantees the claim is correct"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_20_x7sj",
+          "index": 26,
+          "question": "According to the book, what does Claude not generate natively?",
+          "options": {
+            "A": "Photographic images and video",
+            "B": "SVG graphics and diagrams",
+            "C": "Excel files with working formulas",
+            "D": "Web pages"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_79_gnsg",
+          "index": 27,
+          "question": "Which Canva AI tier, such as designing through conversation, draws on the AI allowance fastest?",
+          "options": {
+            "A": "Basic",
+            "B": "Ultra",
+            "C": "Premium",
+            "D": "Standard"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_12_ymrt",
+          "index": 28,
+          "question": "What is the lowest Claude plan that includes Claude Code?",
+          "options": {
+            "A": "Pro",
+            "B": "Free",
+            "C": "Enterprise",
+            "D": "Max 5x"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_5_c130",
+          "index": 29,
+          "question": "Retrieval-augmented generation (RAG) reduces errors by:",
+          "options": {
+            "A": "retraining the model on the user's files every night",
+            "B": "switching off web access during a chat",
+            "C": "retrieving relevant passages and giving them to the model along with the question",
+            "D": "generating several answers and choosing by vote"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_39_1or4",
+          "index": 30,
+          "question": "In July 2026 Google renamed NotebookLM as:",
+          "options": {
+            "A": "Gemini Research",
+            "B": "Gemini Notebook",
+            "C": "Google Notes",
+            "D": "Notebook Pro"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_65_y4ke",
+          "index": 31,
+          "question": "Which database is built into every Replit app?",
+          "options": {
+            "A": "Firebase",
+            "B": "SQLite only",
+            "C": "MongoDB",
+            "D": "Managed PostgreSQL"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_24_fovm",
+          "index": 32,
+          "question": "In ChatGPT Work, Plan mode:",
+          "options": {
+            "A": "books meetings in the user's calendar",
+            "B": "gathers context and proposes a step-by-step plan for approval before the work starts",
+            "C": "chooses the cheapest subscription plan for the user",
+            "D": "schedules recurring payments"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_75_4sj1",
+          "index": 33,
+          "question": "Firefly's Text to Vector feature produces:",
+          "options": {
+            "A": "editable vector artwork that scales without loss",
+            "B": "a low-resolution raster image",
+            "C": "an animated GIF",
+            "D": "a 3D model"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172963_98_80a6",
+          "index": 34,
+          "question": "To manage the risk of runaway cost from long autonomous agent runs, the book advises:",
+          "options": {
+            "A": "avoiding agents entirely",
+            "B": "running agents only at night",
+            "C": "using only free plans",
+            "D": "setting spending limits first"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_62_s3kt",
+          "index": 35,
+          "question": "According to the book, Replit's speciality is:",
+          "options": {
+            "A": "answering only from uploaded sources",
+            "B": "the complete path from idea to live product inside one tool",
+            "C": "commercially safe image generation",
+            "D": "decentralised, tamper-resistant hosting"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_40_b17c",
+          "index": 36,
+          "question": "NotebookLM's speciality is:",
+          "options": {
+            "A": "running coding agents in parallel",
+            "B": "hosting web applications",
+            "C": "source-grounding: answering from the user's own sources and citing the passage for each",
+            "D": "generating photographic images"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_35_ls69",
+          "index": 37,
+          "question": "How much cloud storage comes with Google AI Pro?",
+          "options": {
+            "A": "20 TB",
+            "B": "400 GB",
+            "C": "5 TB",
+            "D": "15 GB"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_42_nful",
+          "index": 38,
+          "question": "How many sources per notebook does the free tier allow, as reported in the book?",
+          "options": {
+            "A": "10",
+            "B": "50",
+            "C": "100",
+            "D": "25"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_29_ju2j",
+          "index": 39,
+          "question": "On ChatGPT Enterprise and Edu workspaces, plugins are:",
+          "options": {
+            "A": "off by default until an administrator enables them",
+            "B": "limited to five per member",
+            "C": "not available at all",
+            "D": "always on for every member"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172961_7_huql",
+          "index": 40,
+          "question": "Of the three levels of capability in Chapter 1, which describes an agent?",
+          "options": {
+            "A": "It generates images from a text prompt",
+            "B": "It answers from its training data and the conversation",
+            "C": "It plans a multi-step task, uses tools repeatedly and checks its own work",
+            "D": "It calls a search tool and uses the results in its answer"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_41_utix",
+          "index": 41,
+          "question": "An Audio Overview is:",
+          "options": {
+            "A": "a transcript of a YouTube video",
+            "B": "a voice recording of the user's own notes",
+            "C": "a music track generated from a text prompt",
+            "D": "a podcast-style discussion between two AI hosts, generated from the notebook's sources"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_46_xuxk",
+          "index": 42,
+          "question": "Which statement about grounding in NotebookLM is correct?",
+          "options": {
+            "A": "It lowers hallucination but does not eliminate it, so citations should still be checked",
+            "B": "It cannot read PDF files",
+            "C": "It works only in English",
+            "D": "It requires a paid plan"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_25_3sdo",
+          "index": 43,
+          "question": "ChatGPT's Study mode:",
+          "options": {
+            "A": "guides the learner with questions instead of giving the answer",
+            "B": "records and summarises lectures only",
+            "C": "translates textbooks into other languages",
+            "D": "blocks internet access during exams"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_67_lris",
+          "index": 44,
+          "question": "In Replit, checkpoints are:",
+          "options": {
+            "A": "security scans run before publishing",
+            "B": "billing alerts",
+            "C": "snapshots the agent saves while working, so the project can be rolled back",
+            "D": "code reviews by Replit staff"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_38_trsj",
+          "index": 45,
+          "question": "Which Google tool is an asynchronous coding agent that connects to a code repository, fixes issues and drafts pull requests?",
+          "options": {
+            "A": "Jules",
+            "B": "Canvas",
+            "C": "Google AI Studio",
+            "D": "Gemini Spark"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_56_gxw3",
+          "index": 46,
+          "question": "On which network do Caffeine apps run?",
+          "options": {
+            "A": "Replit's cloud",
+            "B": "The Internet Computer",
+            "C": "The user's mobile phone",
+            "D": "Amazon Web Services only"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_86_x9f0",
+          "index": 47,
+          "question": "A single Google AI plan raises limits in which four tools covered in the book?",
+          "options": {
+            "A": "Gemini, Codex, Jules and Canva",
+            "B": "ChatGPT, Gemini, Claude and Caffeine",
+            "C": "Gemini, Gemini Notebook, Antigravity and Flow",
+            "D": "Gemini, Canva, Replit and Firefly"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_36_tp3r",
+          "index": 48,
+          "question": "Which Google models compose music with instruments, vocals and lyrics?",
+          "options": {
+            "A": "Veo",
+            "B": "Flow",
+            "C": "Imagen",
+            "D": "Lyria"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_72_oe8z",
+          "index": 49,
+          "question": "On paid Firefly plans, standard features such as Generate Image and Generative Fill:",
+          "options": {
+            "A": "cost ten generative credits each",
+            "B": "are available only on Premium",
+            "C": "are limited to 20 uses a month",
+            "D": "are unlimited and do not consume generative credits"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_19_daq7",
+          "index": 50,
+          "question": "Which Claude feature opens documents, web pages, dashboards and small apps in a side panel where they can be revised and shared?",
+          "options": {
+            "A": "Memory",
+            "B": "Artifacts",
+            "C": "Projects",
+            "D": "Research"
+          },
+          "category": "General"
+        },
+        {
+          "id": "q_csv_1794404172962_48_clb4",
+          "index": 51,
+          "question": "In Antigravity, artifacts are:",
+          "options": {
+            "A": "images generated with Nano Banana",
+            "B": "reviewable evidence such as implementation plans, walkthroughs, screenshots and browser",
+            "C": "the source files of a project",
+            "D": "bugs left behind by an agent"
+          },
+          "category": "General"
+        }
+      ],
+      "privateAnswerKey": {
+        "q_csv_1794404172962_28_urdx": "C",
+        "q_csv_1794404172961_9_dhs9": "B",
+        "q_csv_1794404172962_76_21i2": "C",
+        "q_csv_1794404172962_87_7xy8": "A",
+        "q_csv_1794404172962_81_belo": "B",
+        "q_csv_1794404172962_80_qzvm": "A",
+        "q_csv_1794404172961_14_2xlf": "D",
+        "q_csv_1794404172962_88_ilvn": "C",
+        "q_csv_1794404172963_100_3okf": "A",
+        "q_csv_1794404172961_11_8fwi": "C",
+        "q_csv_1794404172962_47_3cwb": "A",
+        "q_csv_1794404172962_44_7ol4": "C",
+        "q_csv_1794404172962_89_1iwj": "C",
+        "q_csv_1794404172962_57_0yk1": "C",
+        "q_csv_1794404172961_1_jqnf": "C",
+        "q_csv_1794404172962_59_kwkp": "B",
+        "q_csv_1794404172962_18_6dzk": "B",
+        "q_csv_1794404172962_55_q5ez": "D",
+        "q_csv_1794404172962_73_has0": "B",
+        "q_csv_1794404172962_84_nuu6": "B",
+        "q_csv_1794404172962_15_82cs": "C",
+        "q_csv_1794404172962_63_vwkg": "A",
+        "q_csv_1794404172962_17_77ms": "C",
+        "q_csv_1794404172963_99_w7dl": "B",
+        "q_csv_1794404172962_96_8eys": "C",
+        "q_csv_1794404172962_20_x7sj": "A",
+        "q_csv_1794404172962_79_gnsg": "B",
+        "q_csv_1794404172961_12_ymrt": "A",
+        "q_csv_1794404172961_5_c130": "C",
+        "q_csv_1794404172962_39_1or4": "B",
+        "q_csv_1794404172962_65_y4ke": "D",
+        "q_csv_1794404172962_24_fovm": "B",
+        "q_csv_1794404172962_75_4sj1": "A",
+        "q_csv_1794404172963_98_80a6": "D",
+        "q_csv_1794404172962_62_s3kt": "B",
+        "q_csv_1794404172962_40_b17c": "C",
+        "q_csv_1794404172962_35_ls69": "C",
+        "q_csv_1794404172962_42_nful": "B",
+        "q_csv_1794404172962_29_ju2j": "A",
+        "q_csv_1794404172961_7_huql": "C",
+        "q_csv_1794404172962_41_utix": "D",
+        "q_csv_1794404172962_46_xuxk": "A",
+        "q_csv_1794404172962_25_3sdo": "A",
+        "q_csv_1794404172962_67_lris": "C",
+        "q_csv_1794404172962_38_trsj": "A",
+        "q_csv_1794404172962_56_gxw3": "B",
+        "q_csv_1794404172962_86_x9f0": "C",
+        "q_csv_1794404172962_36_tp3r": "D",
+        "q_csv_1794404172962_72_oe8z": "D",
+        "q_csv_1794404172962_19_daq7": "B",
+        "q_csv_1794404172962_48_clb4": "B"
+      },
+      "answers": {
+        "q_csv_1794404172962_28_urdx": "C",
+        "q_csv_1794404172961_9_dhs9": "B",
+        "q_csv_1794404172962_76_21i2": "C",
+        "q_csv_1794404172962_87_7xy8": "A",
+        "q_csv_1794404172962_81_belo": "B",
+        "q_csv_1794404172962_80_qzvm": "A",
+        "q_csv_1794404172961_14_2xlf": "D",
+        "q_csv_1794404172962_88_ilvn": "B",
+        "q_csv_1794404172963_100_3okf": "A",
+        "q_csv_1794404172961_11_8fwi": "C",
+        "q_csv_1794404172962_47_3cwb": "A",
+        "q_csv_1794404172962_44_7ol4": "C",
+        "q_csv_1794404172962_89_1iwj": "C"
+      },
+      "reviewed": {
+        "q_csv_1794404172962_28_urdx": false,
+        "q_csv_1794404172961_9_dhs9": false,
+        "q_csv_1794404172962_76_21i2": false,
+        "q_csv_1794404172962_87_7xy8": false,
+        "q_csv_1794404172962_81_belo": false,
+        "q_csv_1794404172962_80_qzvm": false,
+        "q_csv_1794404172961_14_2xlf": false,
+        "q_csv_1794404172962_88_ilvn": false,
+        "q_csv_1794404172963_100_3okf": false,
+        "q_csv_1794404172961_11_8fwi": false,
+        "q_csv_1794404172962_47_3cwb": false,
+        "q_csv_1794404172962_44_7ol4": false,
+        "q_csv_1794404172962_89_1iwj": false
+      },
+      "startTime": 1794405756664,
+      "endTime": 1794409356664,
+      "status": "submitted",
+      "tabSwitchCount": 0,
+      "tabSwitchEvents": [],
+      "result": {
+        "totalQuestions": 51,
+        "attended": 13,
+        "unattended": 38,
+        "correct": 12,
+        "wrong": 1,
+        "marksPerCorrect": 1,
+        "negativeMarking": 0,
+        "finalScore": 12,
+        "maxPossibleScore": 51,
+        "percentage": 23.5,
+        "passed": false,
+        "passMarkPercentage": 50,
+        "timeTakenSeconds": 163,
+        "rank": null
+      },
+      "submittedAt": 1794405920112
+    }
+  ],
+  "timeExtensionLogs": []
+}
