@@ -229,4 +229,3 @@ While client-side hardening makes casual cheating difficult, browser sandboxing 
 2. **Admin Password**: in `/config.js` or via `ADMIN_PASSWORD` environment variable.
 3. **Question Bank**: Upload your official PDF or CSV in `/admin` and click **Publish**.
 4. **Subset Size**: In Admin &rarr; Quiz Settings, set how many questions each participant should receive out of the bank.
-admin pass:admin@mindquest2026
